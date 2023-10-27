@@ -12,9 +12,11 @@ sudo apt-get install fonts-unfonts-core -y
 sudo apt-get install ibus ibus-hangul -y
 
 sudo reboot
----
-InfluxDB 설치
 
+## 구동 완료
+
+InfluxDB 설치
+---
     InfluxDB download key using wget
     wget -q https://repos.influxdata.com/influxdata-archive_compat.key
     echo '393e8779c89ac8d958f81f942f9ad7fb82a25e133faddaf92e15b16e6ac9ce4c influxdata-archive_compat.key' | sha256sum -c && cat influxdata-archive_compat.key | gpg --dearmor | sudo tee     
@@ -63,8 +65,10 @@ $ influx
     
         pip install influxdb
 
-Camera && TelegramBot
+## 구동 완료
 
+Camera && TelegramBot
+---
           pip install python-telegram-bot --upgrade
           
           git clone https://github.com/python-telegram-bot/python-telegram-bot --recurisive
@@ -85,7 +89,13 @@ Error
         Made X/EGL preview window
         [1773] INFO Camera camera_manager.cpp:297 libcamera v0.0.5+83-bde9b04f
         ERROR: *** no cameras available ***
-        
+
+## 구동 완료
+
 참고
 
  https://github.com/raspberrypi/picamera2/blob/main/examples/capture_png.py
+
+timerbot을 이용해 텔레그램에 사진 보내기
+
+### 아직 구동 못함
