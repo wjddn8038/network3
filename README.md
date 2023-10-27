@@ -1,5 +1,6 @@
 # network_202144025
 ### 라즈베리파이 초기 설정
+---
 sudo apt update
 
 sudo apt upgrade
@@ -11,7 +12,7 @@ sudo apt-get install fonts-unfonts-core -y
 sudo apt-get install ibus ibus-hangul -y
 
 sudo reboot
-----
+---
 InfluxDB 설치
 
 InfluxDB download key using wget
