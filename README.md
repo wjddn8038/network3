@@ -96,6 +96,6 @@ Error
 
  https://github.com/raspberrypi/picamera2/blob/main/examples/capture_png.py
 
-timerbot을 이용해 텔레그램에 사진 보내기
+## timerbot을 이용해 텔레그램에 사진 보내기
 
 ### 아직 구동 못함
