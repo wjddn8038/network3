@@ -51,23 +51,23 @@ $ influx
 
 6. 프로그램 설치
    
-sudo apt update
-
-sudo apt install grafana
+        sudo apt update
+        
+        sudo apt install grafana
 
 7. 프로그램 실행
    
-    sudo service grafana-server start
+        sudo service grafana-server start
+        
+        influxdb import with python
     
-    influxdb import with python
-
-    pip install influxdb
+        pip install influxdb
 
 Camera && TelegramBot
 
-      pip install python-telegram-bot --upgrade
-      
-      git clone https://github.com/python-telegram-bot/python-telegram-bot --recurisive
+          pip install python-telegram-bot --upgrade
+          
+          git clone https://github.com/python-telegram-bot/python-telegram-bot --recurisive
 
   
 PI 카메라 연결
