@@ -1,5 +1,5 @@
 # network_202144025
-라즈베리파이 초기 설정
+###라즈베리파이 초기 설정
 sudo apt update
 
 sudo apt upgrade
