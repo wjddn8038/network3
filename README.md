@@ -72,12 +72,12 @@ Camera && TelegramBot
   
 PI 카메라 연결
 
-    Legacy Camera disable
-    libcamera-hello -t 0
-  
+        Legacy Camera disable
+        libcamera-hello -t 0
+      
 Python Lib 설치
 
-   pip install picamera2
+       pip install picamera2
   
 Error
 
@@ -88,4 +88,4 @@ Error
         
 참고
 
-  https://github.com/raspberrypi/picamera2/blob/main/examples/capture_png.py
+ https://github.com/raspberrypi/picamera2/blob/main/examples/capture_png.py
