@@ -50,13 +50,13 @@ $ influx
         echo "deb https://packages.grafana.com/oss/deb stable main" | sudo tee -a /etc/apt/sources.list.d/grafana.list
 
 6. 프로그램 설치
-7. 
+   
 sudo apt update
 
 sudo apt install grafana
 
 7. 프로그램 실행
-8. 
+   
 sudo service grafana-server start
 
 influxdb import with python
@@ -71,14 +71,21 @@ Camera && TelegramBot
 
   
 PI 카메라 연결
-Legacy Camera disable
-  libcamera-hello -t 0
+
+    Legacy Camera disable
+    libcamera-hello -t 0
+  
 Python Lib 설치
-  pip install picamera2
+
+   pip install picamera2
+  
 Error
-libEGL warning : DRI2: failed to authenticate
-Made X/EGL preview window
-[1773] INFO Camera camera_manager.cpp:297 libcamera v0.0.5+83-bde9b04f
-ERROR: *** no cameras available ***
+
+        libEGL warning : DRI2: failed to authenticate
+        Made X/EGL preview window
+        [1773] INFO Camera camera_manager.cpp:297 libcamera v0.0.5+83-bde9b04f
+        ERROR: *** no cameras available ***
+        
 참고
+
   https://github.com/raspberrypi/picamera2/blob/main/examples/capture_png.py
