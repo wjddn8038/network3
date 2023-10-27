@@ -71,7 +71,7 @@ Camera && TelegramBot
 
   
 PI 카메라 연결
-
+---
         Legacy Camera disable
         libcamera-hello -t 0
       
