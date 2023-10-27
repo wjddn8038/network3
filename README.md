@@ -4,14 +4,14 @@ sudo apt update
 
 sudo apt upgrade
 
-한글깨짐
+### 한글깨짐
 
 sudo apt-get install fonts-unfonts-core -y
 
 sudo apt-get install ibus ibus-hangul -y
 
 sudo reboot
-
+----
 InfluxDB 설치
 
 InfluxDB download key using wget
