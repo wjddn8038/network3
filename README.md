@@ -106,6 +106,10 @@ Error
 미리보기를 통해 문서중 일부분을 미리볼수가 있음
 파이썬은 DECODING 코드를 사용함
 코드 dustAPI.py 를 입력 후 실행시 아까 미리봤던 화면이 출력됨
+실행시 오류가 났을때 프로그램이 안깔렸을 수가 있으니 bs4와 requests, 또는 urllib를 다운
+
+        pip install bs4
+        pip install requests   or  pip install urllib
 
 ---
 
