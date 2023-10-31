@@ -1,0 +1,37 @@
+import serial
+import time
+
+# 시리얼 포트와 속도 설정
+serial_port = 'COM3'  # 아두이노가 연결된 포트로 변경
+baud_rate = 9600
+ser = serial.Serial(serial_port, baud_rate)
+
+# 딜레이 설정
+led_delay = 0.00028  # 280 마이크로초
+read_delay = 0.00004  # 40 마이크로초
+switch_delay = 0.0096  # 9600 마이크로초
+loop_delay = 1  # 1초
+
+while True:
+    # LED를 LOW로 설정
+    ser.write(b'0\n')
+    time.sleep(led_delay)
+    
+    # 아날로그 값을 읽음
+    ser.write(b'r\n')
+    Vo_value = float(ser.readline().decode('utf-8').strip())
+    time.sleep(read_delay)
+    
+    # LED를 HIGH로 설정
+    ser.write(b'1\n')
+    time.sleep(switch_delay)
+    
+    # 전압 및 먼지 밀도 계산
+    Voltage = Vo_value * 5.0 / 1023.0
+    dustDensity = (Voltage - 0.3) / 0.005
+
+    # 결과 출력
+    print("Voltage:", Voltage)
+    print("Dust Density:", dustDensity)
+    
+    time.sleep(loop_delay)
