@@ -16,3 +16,9 @@ res = requests.get(url+queryParams)
 soup = BeautifulSoup(res.content, 'html.parser')
 data = soup.find_all('item')
 print(data)
+
+for item in data:
+	datatime = item.find('datatime')
+	pm25value = item.find('pm25value')
+	print(datatime.get_text())
+	print(pm25value.get_text())
