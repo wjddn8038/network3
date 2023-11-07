@@ -146,3 +146,8 @@ CCTV (카메라, 적외선 센서)
 4.차량 전화번호 태그기기 (NFC, RFID 등 태그관련 모듈 사용)
   핸드폰으로 태그시 시스템을 통한 차주인에 대한 정보제공(안심번호, 문자전송, 로그기록) 
 
+참고 자료
+https://return-value.tistory.com/106 (cctv 모션감지)
+https://m.blog.naver.com/icbanq/221645472769 /   https://m.blog.naver.com/roboholic84/221382397929 (인체감지센서)
+
+
