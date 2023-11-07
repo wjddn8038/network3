@@ -118,6 +118,10 @@ Error
     make telosb
     writing TOS image 라고 뜨면 성공
 
+    COMPONENT=BlinkAppC
+    include $(MAKERULES)
+
+
 ---
 # 기말고사 프로젝트 아이디어(미정)
 내가 생각한 주제
