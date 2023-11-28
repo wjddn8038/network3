@@ -183,3 +183,7 @@ https://m.blog.naver.com/icbanq/221645472769 /   https://m.blog.naver.com/roboho
 실시간 모니터링 웹페이지 및 앱
 
 API서버(AWS) (알림전송, 모델적용, 기타 기능구현 서버)
+
+## 역할
+
+본인 : 쓰러짐 감지 모델 개발
