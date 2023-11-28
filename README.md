@@ -190,7 +190,7 @@ API서버(AWS) (알림전송, 모델적용, 기타 기능구현 서버)
 
 ## dataset
 
-쓰러짐 감지 데이터 셋
+쓰러짐 감지 데이터 셋(폴더 안에 fall, not_fall 종류의 이미지들이 있음)
 
 ## fall_model_create.py
 
