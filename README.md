@@ -197,6 +197,10 @@ API서버(AWS) (알림전송, 모델적용, 기타 기능구현 서버)
 쓰러짐 감지 데이터셋을 이용하여 학습한 모델 코드(karas를 통해서 만든 CNN모델)
 사람의 쓰러짐 데이터와 쓰러지지 않은 데이터를 학습하여 쓰러짐과 쓰러지지 않음을 구분할수 있음 정확도 최대 (0.95)
 
+## 코드를 실행시 모델 파일 하나 생성됨 ( 예: fall_detection_model.h5)
+
+이 모델 파일은 모델 테스트시 사용
+
 ## model 다운
 https://drive.google.com/file/d/1ri-IRMX6sfvutJgWdVmFwiEb8HyovBps/view?usp=drive_link
 
@@ -287,7 +291,5 @@ https://drive.google.com/file/d/1ri-IRMX6sfvutJgWdVmFwiEb8HyovBps/view?usp=drive
 *감지: 사고 발생O*   
 <img width="500" alt="문자전송" src="https://github.com/inhatc-wn/inhatc/assets/113413158/5b6db61b-2686-4d2c-804b-8272570e34b5">
 
-## 코드를 실행시 모델 파일 하나 생성됨 ( 예: fall_detection_model.h5)
 
-이 모델 파일은 모델 테스트시 사용
 
