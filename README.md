@@ -279,6 +279,14 @@ https://drive.google.com/file/d/1ri-IRMX6sfvutJgWdVmFwiEb8HyovBps/view?usp=drive
 
 다운시 나오는 파일 안에 coco.names, yolov4.cfg, yolov4.weights가 있음
 
+## 실행화면
+
+*비감지: 사고 발생X*   
+<img width="500" alt="문자전송" src="https://github.com/inhatc-wn/inhatc/assets/113413158/258bf61a-9756-49ec-96b9-f956f9e9c750">
+
+*감지: 사고 발생O*   
+<img width="500" alt="문자전송" src="https://github.com/inhatc-wn/inhatc/assets/113413158/5b6db61b-2686-4d2c-804b-8272570e34b5">
+
 ## 코드를 실행시 모델 파일 하나 생성됨 ( 예: fall_detection_model.h5)
 
 이 모델 파일은 모델 테스트시 사용
