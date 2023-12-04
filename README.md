@@ -194,7 +194,8 @@ API서버(AWS) (알림전송, 모델적용, 기타 기능구현 서버)
 
 ## fall_model_create.py
 
-쓰러짐 감지 데이터셋을 이용하여 학습한 모델 코드
+쓰러짐 감지 데이터셋을 이용하여 학습한 모델 코드(karas를 통해서 만든 CNN모델)
+사람의 쓰러짐 데이터와 쓰러지지 않은 데이터를 학습하여 쓰러짐과 쓰러지지 않음을 구분할수 있음 정확도 최대 (0.95)
 
 ## model 다운
 https://drive.google.com/file/d/1ri-IRMX6sfvutJgWdVmFwiEb8HyovBps/view?usp=drive_link
@@ -202,11 +203,11 @@ https://drive.google.com/file/d/1ri-IRMX6sfvutJgWdVmFwiEb8HyovBps/view?usp=drive
 
 ## image 파일들
 
-테스트할때 필요한 이미지들
+테스트할때 필요한 이미지들 (쓰러짐 데이터, 쓰러지지 않음 데이터)
 
 ## fall_model_test.py
 
-이 코드를 통해서 테스트를 할수 있음
+이 코드를 통해서 테스트를 할수 있음(CNN으로 사람을 인식하고 yolo로 fall_model_create 의 모델을 이용하여 사람을 인식하고, 그 사람의 쓰러짐 여부를 확인할수 있음)
 
 ## 실행법
 
